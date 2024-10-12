@@ -2,7 +2,9 @@
 
 [![Backers on Open Collective](https://opencollective.com/react-slick/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-slick/sponsors/badge.svg)](#sponsors)
 
-##### Carousel component built with React. It is a react port of [slick carousel](http://kenwheeler.github.io/slick/)
+##### This is a fork of [react slick](https://www.npmjs.com/package/react-slick) - Carousel component built with React. It is a react port of [slick carousel](http://kenwheeler.github.io/slick/)
+
+##### Maintained by [WAYF Digital](https://github.com/wayfdigital) - with major bug fixes
 
 ## [Documentation](http://react-slick.neostack.com)
 
