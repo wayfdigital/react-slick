@@ -726,7 +726,12 @@ export const getTrackLeft = spec => {
     }
     // shift current slide to center of the frame
     if (centerMode) {
-      slidesToOffset += parseInt(slidesToShow / 2);
+      if (slidesToShow === slideCount) {
+        // When all slides are visible in infinite mode
+        slidesToOffset += parseInt(slidesToShow / 2) + 1;
+      } else {
+        slidesToOffset += parseInt(slidesToShow / 2);
+      }
     }
   } else {
     if (
